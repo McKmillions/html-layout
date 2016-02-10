@@ -1,0 +1,97 @@
+/** {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #332E33;
+   	overflow: auto;
+   }
+
+   header div.row {
+   	margin: 75px auto;
+    width: 400px;
+    overflow: auto;
+}
+
+.container {
+	position: relative;
+}
+
+section {
+	clear: both;
+	display: block;
+}
+
+article {
+	float: left;
+	padding: 25px;
+}
+
+aside.left {
+	float: left;
+	width: 15%;
+	padding: 10px;
+	background-color: grey;
+	height: 100vh;
+}
+
+aside.right {
+	float: right;
+	width: 15%;
+	padding: 10px;
+	background-color: grey;
+	height: 100vh;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 15%;
+	width: 70%;
+	background-color: #000;
+	height: 50px;
+	color: #fff;
+}
+*/
+
+body {
+  margin: 0;
+}
+header {
+  background: #333;
+  color: #fff;
+  height: 150px;
+}
+
+section {
+	position: relative;
+	height: 100vh;
+}
+.left, .right {
+  width: 15%;
+  height: 100vh;
+  background: #ccc;
+}
+.left, article {
+  float: left;
+}
+article {
+	height: 100vh;
+}
+.right {
+  float: right;
+}
+footer {
+  background: #000;
+  color: #fff;
+  width: 70%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
